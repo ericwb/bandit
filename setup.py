@@ -13,6 +13,7 @@ try:
 except ImportError:
     pass
 
+
 setuptools.setup(
     python_requires='>=3.5',
     setup_requires=['pbr>=2.0.0'],
